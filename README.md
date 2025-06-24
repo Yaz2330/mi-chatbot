@@ -148,8 +148,3 @@ Proyecto desarrollado como parte de una exploración académica en chatbots pers
 
 ---
 
-### ✅ ¿Qué hacer ahora?
-
-1. Copia todo este contenido y pégalo en tu archivo `README.md`.  
-2. Guarda, haz **commit** y **push** a tu repositorio privado en GitHub.  
-3. ¡Listo para continuar con las pruebas y ajustes!
