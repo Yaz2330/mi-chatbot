@@ -29,7 +29,6 @@ import numpy as np
 modelo = SentenceTransformer('all-mpnet-base-v2')
 embeddings = modelo.encode(fragmentos, show_progress_bar=True)
 np.save("embeddings.npy", embeddings)
-
 🤖 Fase 4: Construcción del chatbot
 Subir el repositorio local a GitHub
 Asegúrate de que el proyecto esté completo y funcional hasta esta fase.
@@ -119,3 +118,4 @@ Proyecto con fines educativos y personales. El modelo LLM fue proporcionado por 
 ✨ Autora
 Yaz2330
 Proyecto desarrollado como parte de una exploración académica en chatbots personalizados con enfoque en educación digital.
+
