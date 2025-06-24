@@ -29,3 +29,13 @@ import numpy as np
 modelo = SentenceTransformer('all-mpnet-base-v2')
 embeddings = modelo.encode(fragmentos, show_progress_bar=True)
 np.save("embeddings.npy", embeddings)
+
+## 💻 Interacción y pruebas en Google Colab
+
+La fase de interacción con el chatbot se realizó en un entorno Google Colab para facilitar la ejecución rápida y prueba del modelo y búsqueda semántica.
+
+Puedes acceder al notebook con todo el código, ejecución y pruebas desde este enlace:
+
+[👉 Abrir Notebook en Google Colab](https://colab.research.google.com/drive/1iSwoVfLMbQmACg6DGrdz_tlsTVNjIG75)
+
+---
